@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.bounce">
+   <children>
+      <Text fill="RED" fontSmoothingType="LCD" layoutX="161.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quiesh">
+         <font>
+            <Font name="Arial" size="51.0" />
+         </font>
+      </Text>
+      <Button layoutX="118.0" layoutY="338.0" mnemonicParsing="false" onAction="#mode" prefHeight="46.0" prefWidth="246.0" text="Lets Gooooooo">
+         <font>
+            <Font name="Comic Sans MS" size="19.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="174.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A reviewer for ITE 399" wrappingWidth="151.30078125">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="118.0" layoutY="394.0" mnemonicParsing="false" onAction="#exit" prefHeight="46.0" prefWidth="246.0" text="Bounce na'ko pareh">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

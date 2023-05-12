@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0">
+         <image>
+            <Image url="@../main%20game/bg.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="134.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This presentation is clear, simple, and to the point" textAlignment="CENTER" wrappingWidth="447.73667907714844">
+         <font>
+            <Font name="Dubai Regular" size="30.0" />
+         </font>
+      </Text>
+      <TextField alignment="CENTER" disable="true" layoutX="130.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="I">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="170.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="N">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="211.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="250.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="O">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="291.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="332.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="374.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="414.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="T">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="455.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="I">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="494.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="V">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="535.0" layoutY="237.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="115.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="P">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="155.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="196.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="235.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="276.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="318.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="N">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="358.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="T">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="399.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="440.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="T">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="479.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="I">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="520.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" disable="true" layoutX="562.0" layoutY="278.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="N">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" text="Next" />
+      <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
+      <Text fill="WHITE" layoutX="309.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 10:" textAlignment="CENTER">
+         <font>
+            <Font name="Dubai Regular" size="21.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
