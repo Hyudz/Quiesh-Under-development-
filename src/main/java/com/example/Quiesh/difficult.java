@@ -10,27 +10,20 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 
-public class game {
+public class difficult {
 
     private Stage stage;
     private Scene scene;
     private Parent root;
-
-    private int i = 1;
+    
     @FXML
-    void question(ActionEvent event) throws IOException {
-
-        i++;
-
-        System.out.println(i);
-
-        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+i+".fxml"));
+    void ezMode(ActionEvent event) throws IOException {
+        System.out.println("Working");
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q1.fxml"));
         Parent root = loader1.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
-
     }
 }
