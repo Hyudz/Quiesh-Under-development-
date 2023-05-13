@@ -20,77 +20,77 @@
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField alignment="CENTER" blendMode="LIGHTEN" disable="true" editable="false" layoutX="227.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
+      <TextField fx:id="q1Ans1" alignment="CENTER" blendMode="LIGHTEN" disable="true" editable="false" layoutX="227.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="266.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans2" alignment="CENTER" layoutX="266.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="306.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
+      <TextField fx:id="q1Ans3" alignment="CENTER" disable="true" editable="false" layoutX="306.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="345.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="T" style="-fx-opacity: 1.0;" text="T">
+      <TextField fx:id="q1Ans4" alignment="CENTER" disable="true" editable="false" layoutX="345.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0" promptText="T" style="-fx-opacity: 1.0;" text="T">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="384.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans5" alignment="CENTER" layoutX="384.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="424.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans6" alignment="CENTER" layoutX="424.0" layoutY="236.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="189.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
+      <TextField fx:id="q1Ans7" alignment="CENTER" disable="true" editable="false" layoutX="189.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="S" style="-fx-opacity: 1.0;" text="S">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="228.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="O" style="-fx-opacity: 1.0;" text="O">
+      <TextField fx:id="q1Ans8" alignment="CENTER" disable="true" editable="false" layoutX="228.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="O" style="-fx-opacity: 1.0;" text="O">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="266.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans9" alignment="CENTER" layoutX="266.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="306.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans10" alignment="CENTER" layoutX="306.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" layoutX="345.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="W" style="-fx-opacity: 1.0;" text="W">
+      <TextField fx:id="q1Ans11" alignment="CENTER" disable="true" layoutX="345.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="W" style="-fx-opacity: 1.0;" text="W">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="384.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans12" alignment="CENTER" layoutX="384.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="424.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="R" style="-fx-opacity: 1.0;" text="R">
+      <TextField fx:id="q1Ans13" alignment="CENTER" disable="true" editable="false" layoutX="424.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="R" style="-fx-opacity: 1.0;" text="R">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" editable="false" layoutX="466.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="E" style="-fx-opacity: 1.0;" text="E">
+      <TextField fx:id="q1Ans14" alignment="CENTER" disable="true" editable="false" layoutX="466.0" layoutY="276.0" prefHeight="30.0" prefWidth="30.0" promptText="E" style="-fx-opacity: 1.0;" text="E">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question" text="Next" />
+      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question1" text="Next" />
       <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
       <Text fill="WHITE" layoutX="309.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 1:" textAlignment="CENTER">
          <font>

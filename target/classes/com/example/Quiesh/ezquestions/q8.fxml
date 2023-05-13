@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game">
    <children>
-      <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0" onDragDetected="#ezMode">
+      <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0">
          <image>
             <Image url="@../main%20game/bg.jpg" />
          </image>
@@ -70,7 +70,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question" text="Next" />
+      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question8" text="Next" />
       <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
       <Text fill="WHITE" layoutX="309.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question 8:" textAlignment="CENTER">
          <font>
