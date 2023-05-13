@@ -20,47 +20,47 @@
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField alignment="CENTER" layoutX="147.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans1" alignment="CENTER" layoutX="147.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" layoutX="187.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+      <TextField fx:id="q13Ans2" alignment="CENTER" disable="true" layoutX="187.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="228.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans3" alignment="CENTER" layoutX="228.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="267.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans4" alignment="CENTER" layoutX="267.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" layoutX="308.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="O">
+      <TextField fx:id="q13Ans5" alignment="CENTER" disable="true" layoutX="308.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="O">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" layoutX="349.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R">
+      <TextField fx:id="q13Ans6" alignment="CENTER" disable="true" layoutX="349.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans7" alignment="CENTER" layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="471.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans8" alignment="CENTER" layoutX="471.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" disable="true" layoutX="513.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="S">
+      <TextField fx:id="q13Ans9" alignment="CENTER" disable="true" layoutX="513.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="S">
          <font>
             <Font size="13.0" />
          </font>
