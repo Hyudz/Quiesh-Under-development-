@@ -20,7 +20,7 @@
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField fx:id="q12Ans1" alignment="CENTER" editable="false" layoutX="217.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q12Ans1" alignment="CENTER" layoutX="217.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
@@ -30,7 +30,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q12Ans3" alignment="CENTER" editable="false" layoutX="298.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q12Ans3" alignment="CENTER" layoutX="298.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
@@ -45,7 +45,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q12Ans6" alignment="CENTER" editable="false" layoutX="419.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q12Ans6" alignment="CENTER" layoutX="419.0" layoutY="242.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
@@ -60,12 +60,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q12Ans9" alignment="CENTER" editable="false" layoutX="319.0" layoutY="281.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q12Ans9" alignment="CENTER" layoutX="319.0" layoutY="281.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q12Ans10" alignment="CENTER" editable="false" layoutX="359.0" layoutY="281.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q12Ans10" alignment="CENTER" layoutX="359.0" layoutY="281.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>

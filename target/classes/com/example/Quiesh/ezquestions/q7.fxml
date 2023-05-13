@@ -20,27 +20,27 @@
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField fx:id="q7Ans1" alignment="CENTER" layoutX="185.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="S">
+      <TextField fx:id="q7Ans1" alignment="CENTER" editable="false" layoutX="145.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="U">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans2" alignment="CENTER" layoutX="226.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q7Ans2" alignment="CENTER" editable="false" layoutX="185.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="S">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans3" alignment="CENTER" layoutX="268.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="R">
+      <TextField fx:id="q7Ans3" alignment="CENTER" layoutX="226.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans4" alignment="CENTER" layoutX="145.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="U">
+      <TextField fx:id="q7Ans4" alignment="CENTER" editable="false" layoutX="268.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="R">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans5" alignment="CENTER" layoutX="350.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="L">
+      <TextField fx:id="q7Ans5" alignment="CENTER" editable="false" layoutX="350.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="L">
          <font>
             <Font size="13.0" />
          </font>
@@ -50,22 +50,22 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans7" alignment="CENTER" layoutX="433.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="V">
+      <TextField fx:id="q7Ans7" alignment="CENTER" editable="false" layoutX="433.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="V">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans8" alignment="CENTER" layoutX="473.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="E">
+      <TextField fx:id="q7Ans8" alignment="CENTER" editable="false" layoutX="473.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="E">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans9" alignment="CENTER" layoutX="514.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="L">
+      <TextField fx:id="q7Ans9" alignment="CENTER" editable="false" layoutX="514.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" text="L">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans10" alignment="CENTER" layoutX="228.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="T">
+      <TextField fx:id="q7Ans10" alignment="CENTER" editable="false" layoutX="228.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="T">
          <font>
             <Font size="13.0" />
          </font>
@@ -75,7 +75,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans12" alignment="CENTER" layoutX="311.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="R">
+      <TextField fx:id="q7Ans12" alignment="CENTER" editable="false" layoutX="311.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="R">
          <font>
             <Font size="13.0" />
          </font>
@@ -85,12 +85,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans14" alignment="CENTER" layoutX="393.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="A">
+      <TextField fx:id="q7Ans14" alignment="CENTER" editable="false" layoutX="393.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="A">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans15" alignment="CENTER" layoutX="433.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="D">
+      <TextField fx:id="q7Ans15" alignment="CENTER" editable="false" layoutX="433.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" text="D">
          <font>
             <Font size="13.0" />
          </font>

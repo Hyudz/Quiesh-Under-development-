@@ -25,12 +25,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q19Ans2" alignment="CENTER" disable="true" layoutX="282.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="H">
+      <TextField fx:id="q19Ans2" alignment="CENTER" disable="true" editable="false" layoutX="282.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="H">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q19Ans3" alignment="CENTER" disable="true" layoutX="323.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
+      <TextField fx:id="q19Ans3" alignment="CENTER" disable="true" editable="false" layoutX="323.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
          <font>
             <Font size="13.0" />
          </font>
@@ -45,7 +45,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q19Ans6" alignment="CENTER" disable="true" layoutX="242.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
+      <TextField fx:id="q19Ans6" alignment="CENTER" disable="true" editable="false" layoutX="242.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
          <font>
             <Font size="13.0" />
          </font>
