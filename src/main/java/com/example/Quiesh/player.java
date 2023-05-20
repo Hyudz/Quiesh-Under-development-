@@ -2,14 +2,7 @@ package com.example.Quiesh;
 
 public class player {
 
-    private int lives = 3;
-
-    int getLives() {
-        return lives;
-    }
-
-    void setLives(int lives) {
-        this.lives = lives;
-    }
+    static int round = 1;
+    static int lives = 3;
     
 }

@@ -5,14 +5,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.difficult">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.difficult">
    <children>
-      <Text fill="RED" fontSmoothingType="LCD" layoutX="66.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Difficulty pareh">
+      <Text fill="RED" fontSmoothingType="LCD" layoutX="162.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Difficulty pareh">
          <font>
             <Font name="Arial" size="38.0" />
          </font>
       </Text>
-      <Button layoutX="118.0" layoutY="338.0" mnemonicParsing="false" onAction="#ezMode" prefHeight="46.0" prefWidth="246.0" text="EZ">
+      <Button layoutX="63.0" layoutY="250.0" mnemonicParsing="false" onAction="#ezMode" prefHeight="46.0" prefWidth="246.0" text="EZ">
          <font>
             <Font name="Comic Sans MS" size="19.0" />
          </font>
@@ -22,7 +22,7 @@
             <Font size="15.0" />
          </font>
       </Text>
-      <Button layoutX="118.0" layoutY="394.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="246.0" text="Challenging">
+      <Button layoutX="362.0" layoutY="250.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="246.0" text="Challenging">
          <font>
             <Font name="Comic Sans MS" size="20.0" />
          </font>

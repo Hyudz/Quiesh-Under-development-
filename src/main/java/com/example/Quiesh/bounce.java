@@ -32,4 +32,29 @@ public class bounce {
         stage.show();
     }
 
+    @FXML
+    void backk(ActionEvent event) throws IOException {
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("haha.fxml"));
+        Parent root = loader1.load();
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    void cont(ActionEvent event) {
+
+    }
+
+    @FXML
+    void rest(ActionEvent event) throws IOException {
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q1.fxml"));
+        Parent root = loader1.load();
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
 }
