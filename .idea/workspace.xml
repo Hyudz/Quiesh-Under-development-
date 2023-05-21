@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc029723-77e4-46eb-be0f-d55f0950fb01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/bounce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/bounce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/difficult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/difficult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Quiesh/game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q10.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q10.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q11.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q11.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q12.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q12.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q13.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q13.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q14.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q14.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q15.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q15.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q16.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q16.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q17.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q17.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q18.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q18.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q19.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q20.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q20.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q8.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q9.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/Quiesh/ezquestions/q9.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/bounce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/bounce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/difficult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/difficult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q10.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q10.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q11.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q11.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q12.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q12.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q13.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q13.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q14.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q14.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q15.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q15.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q16.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q16.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q17.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q17.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q18.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q18.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q19.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q20.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q20.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q8.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q9.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/ezquestions/q9.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Quiesh/game.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Q3kMlHEdUJEL1CrIqc0TaPRbE3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Fraion/Documents/ITE/Java files/Final project - 1920x1080"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc029723-77e4-46eb-be0f-d55f0950fb01" name="Changes" comment="" />
+      <created>1684589610430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684589610430</updated>
+    </task>
+    <servers />
+  </component>
+</project>

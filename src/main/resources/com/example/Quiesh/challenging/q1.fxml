@@ -16,52 +16,52 @@
             <Image url="@../main%20game/bg.jpg" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="134.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A machine for the manuputation of data to present information" textAlignment="CENTER" wrappingWidth="447.73667907714844">
+      <Text fill="WHITE" layoutX="10.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A computer system that includes the central processor, memory system, and input/output devices" textAlignment="CENTER" wrappingWidth="655.7367095947266">
          <font>
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField fx:id="q16Ans1" alignment="CENTER" layoutX="197.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans1" alignment="CENTER" blendMode="LIGHTEN" disable="true" editable="false" layoutX="197.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="H">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans2" alignment="CENTER" disable="true" editable="false" layoutX="237.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="O">
+      <TextField fx:id="q1Ans2" alignment="CENTER" layoutX="236.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans3" alignment="CENTER" layoutX="278.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans3" alignment="CENTER" disable="true" editable="false" layoutX="277.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans4" alignment="CENTER" disable="true" editable="false" layoutX="317.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="P">
+      <TextField fx:id="q1Ans4" alignment="CENTER" disable="true" editable="false" layoutX="317.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans5" alignment="CENTER" disable="true" editable="false" layoutX="358.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="U">
+      <TextField fx:id="q1Ans5" alignment="CENTER" layoutX="355.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans6" alignment="CENTER" layoutX="399.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans6" alignment="CENTER" layoutX="397.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans7" alignment="CENTER" disable="true" editable="false" layoutX="439.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+      <TextField fx:id="q1Ans7" alignment="CENTER" disable="true" editable="false" layoutX="438.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q16Ans8" alignment="CENTER" layoutX="479.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q1Ans8" alignment="CENTER" disable="true" editable="false" layoutX="477.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question16" text="Next" />
+      <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question1" text="Next" />
       <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
       <Label fx:id="questionNo" layoutX="309.0" layoutY="38.0" text="Question" textFill="WHITE">
          <font>

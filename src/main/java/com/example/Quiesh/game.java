@@ -1,6 +1,7 @@
 package com.example.Quiesh;
 
 import java.io.IOException;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -9,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -20,6 +22,10 @@ public class game extends player{
     private Stage stage;
     private Scene scene;
     private Parent root;
+
+    Random randInt = new Random();
+    int round = randInt.nextInt(19);
+    int questionn = round + 1;
 
 
     void returnBack(ActionEvent event) throws IOException{
@@ -38,6 +44,8 @@ public class game extends player{
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+        player.round = 1;
+        player.lives = 3;
     }
 
     void loose(ActionEvent event) throws IOException{
@@ -48,6 +56,8 @@ public class game extends player{
         stage.setScene(scene);
         stage.show();
     }
+
+    @FXML Label questionNo;
 
     @FXML private TextField q1Ans1,q1Ans2,q1Ans3,q1Ans4,q1Ans5,q1Ans6,q1Ans7,q1Ans8,q1Ans9,q1Ans10,q1Ans11,q1Ans12,q1Ans13,q1Ans14;
 
@@ -61,14 +71,14 @@ public class game extends player{
         }
         else if (answerq1.equalsIgnoreCase("systemsoftware")) {
 
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q2.fxml"));
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
 
-            player.round = 2;
+            player.round++;
         } else {
             player.lives = player.lives - 1;
             System.out.println(player.lives);
@@ -77,6 +87,7 @@ public class game extends player{
 
                 String question = "#q1Ans" + i;
                 q1Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q1Ans1.setText("");
                 
             }
 
@@ -116,13 +127,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq2.equalsIgnoreCase("memorysystem")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q3.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 3;
+            player.round++;
         }
         else {
 
@@ -160,19 +172,21 @@ public class game extends player{
 
     @FXML
     void question3(ActionEvent event) throws IOException {
+
         String answerq3 = q3Ans1.getText() + q3Ans2.getText() + q3Ans3.getText() + q3Ans4.getText() + q3Ans5.getText() + q3Ans6.getText() + q3Ans7.getText() + q3Ans8.getText() + q3Ans9.getText() + q3Ans10.getText() + q3Ans11.getText();
         System.out.println(player.round);
         if (player.round == 10) {
             win(event);
         }
         else if (answerq3.equalsIgnoreCase("inputdevice")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q4.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 4;
+            player.round++;
         }
         else {
 
@@ -215,13 +229,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq4.equalsIgnoreCase("multitaskingos")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q5.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 5;
+            player.round++;
         }
         else {
             for (int i= 1; i<=14; i++){
@@ -262,13 +277,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq5.equalsIgnoreCase("outputdevice")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q6.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 6;
+            player.round++;
         }
         else {
 
@@ -311,13 +327,15 @@ public class game extends player{
             win(event);
         }
         else if (answerq6.equalsIgnoreCase("operatingsystem")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q7.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 7;
+            player.round++;
+
         }
 
         else {
@@ -360,13 +378,15 @@ public class game extends player{
             win(event);
         }
         else if (answerq7.equalsIgnoreCase("userlevelthread")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q8.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 8;
+            player.round++;
+
         }
         else {
             for (int i= 1; i<=15; i++){
@@ -408,13 +428,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq8.equalsIgnoreCase("processing")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q9.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 9;
+            player.round++;
         }
         else {
             for (int i= 1; i<=10; i++){
@@ -456,13 +477,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq9.equalsIgnoreCase("memorydevice")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q10.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 10;
+            player.round++;
         }
         else {
             for (int i= 1; i<=12; i++){
@@ -503,13 +525,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq10.equalsIgnoreCase("informativepresentation")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q11.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 11;
+            player.round++;
         }
         else {
 
@@ -552,13 +575,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq11.equalsIgnoreCase("batchos")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q12.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 12;
+            player.round++;
         }
         else {
 
@@ -601,13 +625,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq12.equalsIgnoreCase("controlunit")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q13.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 13;
+            player.round++;
         }
         else {
             for (int i= 1; i<=11; i++){
@@ -648,13 +673,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq13.equalsIgnoreCase("networkos")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q14.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 14;
+            player.round++;
         }
         else {
 
@@ -697,13 +723,15 @@ public class game extends player{
             win(event);
         }
         else if (answerq14.equalsIgnoreCase("processormanagement")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q15.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 15;
+            player.round++;
+
         }
         else {
             for (int i= 1; i<=19; i++){
@@ -744,13 +772,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq15.equalsIgnoreCase("jobscheduling")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q16.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 16;
+            player.round++;
         }
         else {
 
@@ -792,13 +821,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq16.equalsIgnoreCase("computer")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q17.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 17;
+            player.round++;
         }
         else {
             for (int i= 1; i<=12; i++){
@@ -839,13 +869,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq17.equalsIgnoreCase("function")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q18.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 18;
+            player.round++;
         }
         else {
 
@@ -887,13 +918,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq18.equalsIgnoreCase("googledocs")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q19.fxml"));
+
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 19;
+            player.round++;
         }
         else {
             for (int i= 1; i<=10; i++){
@@ -934,13 +966,14 @@ public class game extends player{
             win(event);
         }
         else if (answerq19.equalsIgnoreCase("shareadoc")) {
-            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q20.fxml"));
+            
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
             stage.setScene(scene);
             stage.show();
-            player.round = 10;
+            player.round++;
         }
         else {
             for (int i= 1; i<=9; i++){

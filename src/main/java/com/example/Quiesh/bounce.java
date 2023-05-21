@@ -1,7 +1,6 @@
 package com.example.Quiesh;
 
 import java.io.IOException;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -49,7 +48,7 @@ public class bounce {
 
     @FXML
     void rest(ActionEvent event) throws IOException {
-        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q1.fxml"));
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("difficulties.fxml"));
         Parent root = loader1.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
