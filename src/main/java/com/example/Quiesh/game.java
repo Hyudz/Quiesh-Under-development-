@@ -85,15 +85,19 @@ public class game extends player{
 
             for (int i= 1; i<=14; i++){
 
-                String question = "#q1Ans" + i;
-                q1Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
-                q1Ans1.setText("");
+                q1Ans1.getScene().lookup("#q1Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
                 
             }
 
+            q1Ans2.setText("");
+            q1Ans5.setText("");
+            q1Ans6.setText("");
+            q1Ans9.setText("");
+            q1Ans10.setText("");
+            q1Ans12.setText(""); 
+
             if (player.lives == 0) {
                 loose(event);
-
             }
 
             Timer time = new Timer();
@@ -103,8 +107,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=14; i++){
 
-                        String question = "#q1Ans" + i;
-                        q1Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q1Ans1.getScene().lookup("#q1Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -140,10 +143,16 @@ public class game extends player{
 
             for (int i= 1; i<=12; i++){
 
-                String question = "#q2Ans" + i;
-                q2Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q2Ans1.getScene().lookup("#q2Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q2Ans1.setText("");
+            q2Ans4.setText("");
+            q2Ans8.setText("");
+            q2Ans8.setText("");
+            q2Ans11.setText("");
+            q2Ans12.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -151,8 +160,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=12; i++){
 
-                        String question = "#q2Ans" + i;
-                        q2Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q2Ans1.getScene().lookup("#q2Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -192,10 +200,15 @@ public class game extends player{
 
             for (int i= 1; i<=11; i++){
 
-                String question = "#q3Ans" + i;
-                q2Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q3Ans1.getScene().lookup("#q3Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q3Ans1.setText("");
+            q3Ans2.setText("");
+            q3Ans4.setText("");
+            q3Ans7.setText("");
+            q3Ans8.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -203,8 +216,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=11; i++){
 
-                        String question = "#q2Ans" + i;
-                        q3Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q3Ans1.getScene().lookup("#q3Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -241,10 +253,16 @@ public class game extends player{
         else {
             for (int i= 1; i<=14; i++){
 
-                String question = "#q4Ans" + i;
-                q2Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q4Ans1.getScene().lookup("#q4Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q4Ans3.setText("");
+            q4Ans4.setText("");
+            q4Ans8.setText("");
+            q4Ans9.setText("");
+            q4Ans12.setText("");
+            q4Ans14.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -252,8 +270,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=14; i++){
 
-                        String question = "#q4Ans" + i;
-                        q4Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q4Ans1.getScene().lookup("#q4Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -290,10 +307,14 @@ public class game extends player{
 
             for (int i= 1; i<=12; i++){
 
-                String question = "#q5Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q5Ans1.getScene().lookup("#q5Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q5Ans3.setText("");
+            q5Ans4.setText("");
+            q5Ans8.setText("");
+            q5Ans11.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -301,8 +322,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=12; i++){
 
-                        String question = "#q5Ans" + i;
-                        q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q5Ans1.getScene().lookup("#q5Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -342,10 +362,15 @@ public class game extends player{
 
             for (int i= 1; i<=15; i++){
 
-                String question = "#q6Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q5Ans1.getScene().lookup("#q6Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q6Ans1.setText("");
+            q6Ans4.setText("");
+            q6Ans6.setText("");
+            q6Ans11.setText("");
+            q6Ans14.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -353,8 +378,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=15; i++){
 
-                        String question = "#q2Ans" + i;
-                        q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q5Ans1.getScene().lookup("#q6Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -391,10 +415,14 @@ public class game extends player{
         else {
             for (int i= 1; i<=15; i++){
 
-                String question = "#q7Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q7Ans1.getScene().lookup("#q7Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q7Ans3.setText("");
+            q7Ans6.setText("");
+            q7Ans11.setText("");
+            q7Ans13.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -402,8 +430,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=15; i++){
 
-                        String question = "#q2Ans" + i;
-                        q7Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q7Ans1.getScene().lookup("#q7Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -440,10 +467,14 @@ public class game extends player{
         else {
             for (int i= 1; i<=10; i++){
 
-                String question = "#q5Ans" + i;
-                q8Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q8Ans1.getScene().lookup("#q8Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q8Ans1.setText("");
+            q8Ans4.setText("");
+            q8Ans6.setText("");
+            q8Ans9.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -451,8 +482,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=10; i++){
 
-                        String question = "#q8Ans" + i;
-                        q8Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q8Ans1.getScene().lookup("#q8Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -489,10 +519,15 @@ public class game extends player{
         else {
             for (int i= 1; i<=12; i++){
 
-                String question = "#q9Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q9Ans1.getScene().lookup("#q9Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q9Ans2.setText("");
+            q9Ans3.setText("");
+            q9Ans5.setText("");
+            q9Ans9.setText("");
+            q9Ans11.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -500,8 +535,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=14; i++){
 
-                        String question = "#q9Ans" + i;
-                        q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q9Ans1.getScene().lookup("#q9Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -538,10 +572,16 @@ public class game extends player{
 
             for (int i= 1; i<=23; i++){
 
-                String question = "#q10Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q10Ans1.getScene().lookup("#q10Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q10Ans3.setText("");
+            q10Ans6.setText("");
+            q10Ans13.setText("");
+            q10Ans15.setText("");
+            q10Ans19.setText("");
+            q10Ans22.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -549,8 +589,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=23; i++){
 
-                        String question = "#q10Ans" + i;
-                        q10Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q10Ans1.getScene().lookup("#q10Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -588,10 +627,14 @@ public class game extends player{
 
             for (int i= 1; i<=7; i++){
 
-                String question = "#q11Ans" + i;
-                q11Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q11Ans1.getScene().lookup("#q11Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q11Ans1.setText("");
+            q11Ans3.setText("");
+            q11Ans4.setText("");
+            q11Ans6.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -599,8 +642,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=14; i++){
 
-                        String question = "#q11Ans" + i;
-                        q11Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q11Ans1.getScene().lookup("#q11Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -637,10 +679,15 @@ public class game extends player{
         else {
             for (int i= 1; i<=11; i++){
 
-                String question = "#q12Ans" + i;
-                q12Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q12Ans1.getScene().lookup("#q12Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q12Ans1.setText("");
+            q12Ans3.setText("");
+            q12Ans6.setText("");
+            q12Ans9.setText("");
+            q12Ans10.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -648,8 +695,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=11; i++){
 
-                        String question = "#q12Ans" + i;
-                        q12Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q12Ans1.getScene().lookup("#q12Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -686,10 +732,15 @@ public class game extends player{
 
             for (int i= 1; i<=9; i++){
 
-                String question = "#q13Ans" + i;
-                q13Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q13Ans1.getScene().lookup("#q13Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q13Ans1.setText("");
+            q13Ans3.setText("");
+            q13Ans4.setText("");
+            q13Ans7.setText("");
+            q13Ans8.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -697,8 +748,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=9; i++){
 
-                        String question = "#q13Ans" + i;
-                        q13Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q13Ans1.getScene().lookup("#q13Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -736,10 +786,17 @@ public class game extends player{
         else {
             for (int i= 1; i<=19; i++){
 
-                String question = "#q14Ans" + i;
-                q14Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q14Ans1.getScene().lookup("#q14Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q14Ans3.setText("");
+            q14Ans4.setText("");
+            q14Ans6.setText("");
+            q14Ans7.setText("");
+            q14Ans3.setText("");
+            q14Ans3.setText("");
+            q14Ans3.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -747,8 +804,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=19; i++){
 
-                        String question = "#q14Ans" + i;
-                        q14Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q14Ans1.getScene().lookup("#q14Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -785,10 +841,15 @@ public class game extends player{
 
             for (int i= 1; i<=13; i++){
 
-                String question = "#q15Ans" + i;
-                q15Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q15Ans1.getScene().lookup("#q15Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q15Ans1.setText("");
+            q15Ans3.setText("");
+            q15Ans6.setText("");
+            q15Ans9.setText("");
+            q15Ans12.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -796,8 +857,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=13; i++){
 
-                        String question = "#q15Ans" + i;
-                        q15Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q15Ans1.getScene().lookup("#q15Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -831,21 +891,24 @@ public class game extends player{
             player.round++;
         }
         else {
-            for (int i= 1; i<=12; i++){
+            for (int i= 1; i<=8; i++){
 
-                String question = "#q5Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q16Ans1.getScene().lookup("#q16Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q16Ans1.setText("");
+            q16Ans3.setText("");
+            q16Ans6.setText("");
+            q16Ans8.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
-                    for (int i= 1; i<=14; i++){
+                    for (int i= 1; i<=8; i++){
 
-                        String question = "#q2Ans" + i;
-                        q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q16Ans1.getScene().lookup("#q16Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -882,10 +945,14 @@ public class game extends player{
 
             for (int i= 1; i<=8; i++){
 
-                String question = "#q16Ans" + i;
-                q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q17Ans1.getScene().lookup("#q17Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q17Ans1.setText("");
+            q17Ans4.setText("");
+            q17Ans5.setText("");
+            q17Ans7.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -893,8 +960,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=8; i++){
 
-                        String question = "#q16Ans" + i;
-                        q16Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q17Ans1.getScene().lookup("#q17Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -930,10 +996,15 @@ public class game extends player{
         else {
             for (int i= 1; i<=10; i++){
 
-                String question = "#q17Ans" + i;
-                q17Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q18Ans1.getScene().lookup("#q18Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q18Ans2.setText("");
+            q18Ans3.setText("");
+            q18Ans4.setText("");
+            q18Ans2.setText("");
+            q18Ans2.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -941,8 +1012,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=10; i++){
 
-                        String question = "#q18Ans" + i;
-                        q5Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q18Ans1.getScene().lookup("#q18Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -978,10 +1048,15 @@ public class game extends player{
         else {
             for (int i= 1; i<=9; i++){
 
-                String question = "#q19Ans" + i;
-                q19Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q19Ans1.getScene().lookup("#q19Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q19Ans1.setText("");
+            q19Ans4.setText("");
+            q19Ans5.setText("");
+            q19Ans6.setText("");
+            q19Ans8.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -989,8 +1064,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=9; i++){
 
-                        String question = "#q19Ans" + i;
-                        q18Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q19Ans1.getScene().lookup("#q19Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }
@@ -1020,10 +1094,16 @@ public class game extends player{
 
             for (int i= 1; i<=13; i++){
 
-                String question = "#q20Ans" + i;
-                q20Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
+                q20Ans1.getScene().lookup("#q20Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
             }
+
+            q20Ans2.setText("");
+            q20Ans3.setText("");
+            q20Ans6.setText("");
+            q20Ans8.setText("");
+            q20Ans11.setText("");
+            q20Ans13.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
@@ -1031,8 +1111,7 @@ public class game extends player{
                 public void run() {
                     for (int i= 1; i<=13; i++){
 
-                        String question = "#q20Ans" + i;
-                        q20Ans1.getScene().lookup(question).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
+                        q20Ans1.getScene().lookup("#q20Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
                     }
                 }

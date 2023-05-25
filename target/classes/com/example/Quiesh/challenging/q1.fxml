@@ -31,12 +31,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q1Ans3" alignment="CENTER" disable="true" editable="false" layoutX="277.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
+      <TextField fx:id="q1Ans3" alignment="CENTER" layoutX="277.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q1Ans4" alignment="CENTER" disable="true" editable="false" layoutX="317.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
+      <TextField fx:id="q1Ans4" alignment="CENTER" layoutX="317.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
@@ -51,7 +51,7 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q1Ans7" alignment="CENTER" disable="true" editable="false" layoutX="438.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;">
+      <TextField fx:id="q1Ans7" alignment="CENTER" layoutX="438.0" layoutY="261.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
