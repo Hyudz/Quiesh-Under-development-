@@ -16,17 +16,17 @@
             <Image url="@../main%20game/bg.jpg" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="134.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Systems that control all networking operations and are server-based" textAlignment="CENTER" wrappingWidth="447.73667907714844">
+      <Text fill="WHITE" layoutX="93.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It was the first disk operating system and it was developed  by Apple" textAlignment="CENTER" wrappingWidth="509.3366470336914">
          <font>
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField fx:id="q13Ans1" alignment="CENTER" layoutX="147.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans1" alignment="CENTER" disable="true" editable="false" layoutX="147.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q13Ans2" alignment="CENTER" disable="true" layoutX="187.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+      <TextField fx:id="q13Ans2" alignment="CENTER" layoutX="187.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
@@ -41,27 +41,22 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q13Ans5" alignment="CENTER" disable="true" layoutX="308.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="O">
+      <TextField fx:id="q13Ans5" alignment="CENTER" disable="true" editable="false" layoutX="308.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q13Ans6" alignment="CENTER" disable="true" layoutX="349.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R">
+      <TextField fx:id="q13Ans6" alignment="CENTER" disable="true" editable="false" layoutX="389.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="D">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q13Ans7" alignment="CENTER" layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q13Ans7" alignment="CENTER" layoutX="430.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q13Ans8" alignment="CENTER" layoutX="471.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="q13Ans9" alignment="CENTER" disable="true" layoutX="513.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="S">
+      <TextField fx:id="q13Ans8" alignment="CENTER" layoutX="472.0" layoutY="240.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
