@@ -29,7 +29,7 @@ public class difficult{
     @FXML
     void ezMode(ActionEvent event) throws IOException {
         int question = round + 1;
-        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+20+".fxml"));
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+question+".fxml"));
         Parent root = loader1.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
