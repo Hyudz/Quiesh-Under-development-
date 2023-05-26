@@ -35,7 +35,17 @@ public class difficult{
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+    
+    }
+    @FXML
+    void challenging(ActionEvent event) throws IOException {
+        int question = round + 1;
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("challenging/q"+8+".fxml"));
+        Parent root = loader1.load();
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
 

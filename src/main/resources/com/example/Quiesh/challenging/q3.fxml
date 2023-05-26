@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game2">
    <children>
       <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0">
          <image>
@@ -28,25 +28,25 @@
             <Font name="Dubai Regular" size="21.0" />
          </font>
       </Label>
-      <TextField fx:id="q3Ans1" alignment="CENTER" disable="true" editable="false" layoutX="169.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="C" />
+      <TextField fx:id="q3Ans1" alignment="CENTER" disable="true" editable="false" layoutX="169.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="C" /> <!--1-->
       <TextField fx:id="q3Ans2" alignment="CENTER" layoutX="209.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" />
       <TextField fx:id="q3Ans3" alignment="CENTER" layoutX="250.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q3Ans4" alignment="CENTER" layoutX="290.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" />
       <TextField fx:id="q3Ans5" alignment="CENTER" layoutX="330.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q3Ans6" alignment="CENTER" layoutX="371.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q3Ans7" alignment="CENTER" layoutX="412.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" />
-      <TextField fx:id="q3Ans8" alignment="CENTER" disable="true" editable="false" layoutX="453.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R" />
-      <TextField fx:id="q3Ans9" alignment="CENTER" disable="true" editable="false" layoutX="89.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A" />
+      <TextField fx:id="q3Ans8" alignment="CENTER" disable="true" editable="false" layoutX="453.0" layoutY="224.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="R" /> <!--8-->
+      <TextField fx:id="q3Ans9" alignment="CENTER" disable="true" editable="false" layoutX="89.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A" /> <!--9-->
       <TextField fx:id="q3Ans10" alignment="CENTER" layoutX="130.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q3Ans11" alignment="CENTER" layoutX="171.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q3Ans12" alignment="CENTER" layoutX="211.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans14" alignment="CENTER" layoutX="250.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans15" alignment="CENTER" layoutX="292.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans16" alignment="CENTER" layoutX="332.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans17" alignment="CENTER" layoutX="372.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans18" alignment="CENTER" layoutX="412.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans19" alignment="CENTER" layoutX="452.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans20" alignment="CENTER" layoutX="492.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q3Ans21" alignment="CENTER" disable="true" editable="false" layoutX="534.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E" />
+      <TextField fx:id="q3Ans13" alignment="CENTER" layoutX="250.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans14" alignment="CENTER" layoutX="292.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans15" alignment="CENTER" layoutX="332.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans16" alignment="CENTER" layoutX="372.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans17" alignment="CENTER" layoutX="412.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans18" alignment="CENTER" layoutX="452.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans19" alignment="CENTER" layoutX="492.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
+      <TextField fx:id="q3Ans20" alignment="CENTER" disable="true" editable="false" layoutX="534.0" layoutY="271.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E" /> <!--20-->
    </children>
 </AnchorPane>

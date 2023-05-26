@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game2">
    <children>
       <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0">
          <image>
@@ -21,7 +21,7 @@
             <Font name="Dubai Regular" size="30.0" />
          </font>
       </Text>
-      <TextField fx:id="q7Ans1" alignment="CENTER" disable="true" editable="false" layoutX="193.0" layoutY="238.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="H">
+      <TextField fx:id="q7Ans1" alignment="CENTER" disable="true" editable="false" layoutX="193.0" layoutY="238.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="H"> <!--1-->
          <font>
             <Font size="13.0" />
          </font>
@@ -51,12 +51,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans7" alignment="CENTER" disable="true" editable="false" layoutX="441.0" layoutY="238.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="D">
+      <TextField fx:id="q7Ans7" alignment="CENTER" disable="true" editable="false" layoutX="441.0" layoutY="238.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="D"> <!--7-->
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans8" alignment="CENTER" disable="true" editable="false" layoutX="90.0" layoutY="282.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A">
+      <TextField fx:id="q7Ans8" alignment="CENTER" disable="true" editable="false" layoutX="90.0" layoutY="282.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="A"> <!--8-->
          <font>
             <Font size="13.0" />
          </font>
@@ -106,12 +106,12 @@
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans19" alignment="CENTER" disable="true" editable="false" layoutX="542.0" layoutY="282.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E">
+      <TextField fx:id="q7Ans18" alignment="CENTER" layoutX="500.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0">
          <font>
             <Font size="13.0" />
          </font>
       </TextField>
-      <TextField fx:id="q7Ans18" alignment="CENTER" layoutX="500.0" layoutY="283.0" prefHeight="30.0" prefWidth="30.0">
+      <TextField fx:id="q7Ans19" alignment="CENTER" disable="true" editable="false" layoutX="542.0" layoutY="282.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E"> <!--19-->
          <font>
             <Font size="13.0" />
          </font>

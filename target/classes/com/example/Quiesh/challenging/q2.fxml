@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Quiesh.game2">
    <children>
       <ImageView fitHeight="394.0" fitWidth="684.0" layoutX="-4.0" layoutY="-3.0">
          <image>
@@ -23,14 +23,14 @@
       </Text>
       <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question2" text="Next" />
       <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
-      <TextField fx:id="q2Ans1" alignment="CENTER" disable="true" editable="false" layoutX="199.0" layoutY="259.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="S" />
+      <TextField fx:id="q2Ans1" alignment="CENTER" disable="true" editable="false" layoutX="199.0" layoutY="259.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="S" /> <!--1-->
       <TextField fx:id="q2Ans2" alignment="CENTER" layoutX="237.0" layoutY="259.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q2Ans3" alignment="CENTER" layoutX="278.0" layoutY="259.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q2Ans4" alignment="CENTER" layoutX="318.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" />
       <TextField fx:id="q2Ans5" alignment="CENTER" layoutX="359.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q2Ans6" alignment="CENTER" layoutX="399.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
       <TextField fx:id="q2Ans7" alignment="CENTER" layoutX="439.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" />
-      <TextField fx:id="q2Ans8" alignment="CENTER" disable="true" editable="false" layoutX="482.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E" />
+      <TextField fx:id="q2Ans8" alignment="CENTER" disable="true" editable="false" layoutX="482.0" layoutY="258.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" style="-fx-opacity: 1.0;" text="E" /> <!--8-->
       <Label layoutX="319.0" layoutY="47.0" text="Label" />
       <Label layoutX="309.0" layoutY="38.0" text="Question" textFill="WHITE">
          <font>

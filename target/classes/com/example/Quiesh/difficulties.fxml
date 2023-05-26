@@ -22,7 +22,7 @@
             <Font size="15.0" />
          </font>
       </Text>
-      <Button layoutX="362.0" layoutY="250.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="246.0" text="Challenging">
+      <Button layoutX="362.0" layoutY="250.0" mnemonicParsing="false" onAction="#challenging" prefHeight="46.0" prefWidth="246.0" text="Challenging">
          <font>
             <Font name="Comic Sans MS" size="20.0" />
          </font>
