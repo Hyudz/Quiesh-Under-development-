@@ -475,11 +475,11 @@ public class game2 extends player{
         }
     }
 
-    @FXML private TextField q8Ans1,q8Ans2,q8Ans3,q8Ans4,q8Ans5,q8Ans6,q8Ans7,q8Ans8,q8Ans9,q8Ans10,q8Ans11,q8Ans12,q8Ans13,q8Ans14,q8Ans15,q8Ans16,q8Ans17,q8Ans18,q8Ans19,q8Ans20,q8Ans21,q8Ans22,q8Ans23,q8Ans24,q8Ans25;
+    @FXML private TextField q8Ans1,q8Ans2,q8Ans3,q8Ans4,q8Ans5,q8Ans6,q8Ans7,q8Ans8,q8Ans9,q8Ans10,q8Ans11,q8Ans12,q8Ans13,q8Ans14,q8Ans15,q8Ans16,q8Ans17,q8Ans18,q8Ans19,q8Ans20,q8Ans21,q8Ans22,q8Ans23,q8Ans24,q8Ans25,q8Ans26;
 
     @FXML
     void question8(ActionEvent event) throws IOException {
-        String answerq8 = q8Ans1.getText() + q8Ans2.getText() + q8Ans3.getText() + q8Ans4.getText() + q8Ans5.getText() + q8Ans6.getText() + q8Ans7.getText() + q8Ans8.getText() + q8Ans9.getText() + q8Ans10.getText() + q8Ans11.getText() + q8Ans12.getText() + q8Ans13.getText() + q8Ans14.getText() + q8Ans15.getText() + q8Ans16.getText() + q8Ans17.getText() + q8Ans18.getText() + q8Ans19.getText() + q8Ans20.getText() + q8Ans21.getText() + q8Ans22.getText() + q8Ans23.getText() + q8Ans24.getText() + q8Ans25.getText();
+        String answerq8 = q8Ans1.getText() + q8Ans2.getText() + q8Ans3.getText() + q8Ans4.getText() + q8Ans5.getText() + q8Ans6.getText() + q8Ans7.getText() + q8Ans8.getText() + q8Ans9.getText() + q8Ans10.getText() + q8Ans11.getText() + q8Ans12.getText() + q8Ans13.getText() + q8Ans14.getText() + q8Ans15.getText() + q8Ans16.getText() + q8Ans17.getText() + q8Ans18.getText() + q8Ans19.getText() + q8Ans20.getText() + q8Ans21.getText() + q8Ans22.getText() + q8Ans23.getText() + q8Ans24.getText() + q8Ans25.getText()  + q8Ans26.getText();
         System.out.println(player.round);
         if (player.round == 10) {
             win(event);
@@ -495,7 +495,7 @@ public class game2 extends player{
             player.round++;
         }
         else {
-            for (int i= 1; i<=25; i++){
+            for (int i= 1; i<=26; i++){
 
                 q8Ans1.getScene().lookup("#q8Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
@@ -521,12 +521,13 @@ public class game2 extends player{
             q8Ans22.setText("");
             q8Ans23.setText("");
             q8Ans24.setText("");
+            q8Ans25.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
-                    for (int i= 1; i<=25; i++){
+                    for (int i= 1; i<=26; i++){
 
                         q8Ans1.getScene().lookup("#q8Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
@@ -603,11 +604,11 @@ public class game2 extends player{
         }
     }
 
-    @FXML private TextField q10Ans1,q10Ans2,q10Ans3,q10Ans4,q10Ans5,q10Ans6,q10Ans7,q10Ans8,q10Ans9,q10Ans10,q10Ans11;
+    @FXML private TextField q10Ans1,q10Ans2,q10Ans3,q10Ans4,q10Ans5,q10Ans6,q10Ans7,q10Ans8,q10Ans9,q10Ans10,q10Ans11,q10Ans12;
 
     @FXML
     void question10(ActionEvent event) throws IOException {
-        String answerq10 = q10Ans1.getText() + q10Ans2.getText() + q10Ans3.getText() + q10Ans4.getText() + q10Ans5.getText() + q10Ans6.getText() + q10Ans7.getText() + q10Ans8.getText() + q10Ans9.getText() + q10Ans10.getText() + q10Ans11.getText();
+        String answerq10 = q10Ans1.getText() + q10Ans2.getText() + q10Ans3.getText() + q10Ans4.getText() + q10Ans5.getText() + q10Ans6.getText() + q10Ans7.getText() + q10Ans8.getText() + q10Ans9.getText() + q10Ans10.getText() + q10Ans11.getText() + q10Ans12.getText();
         System.out.println(player.round);
         if (player.round == 10) {
             win(event);
@@ -624,7 +625,7 @@ public class game2 extends player{
         }
         else {
 
-            for (int i= 1; i<=11; i++){
+            for (int i= 1; i<=12; i++){
 
                 q10Ans1.getScene().lookup("#q10Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
@@ -633,16 +634,17 @@ public class game2 extends player{
             q10Ans2.setText("");
             q10Ans3.setText("");
             q10Ans4.setText("");
-            q10Ans7.setText("");
+            q10Ans5.setText("");
             q10Ans8.setText("");
             q10Ans9.setText("");
             q10Ans10.setText("");
+            q10Ans11.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
-                    for (int i= 1; i<=11; i++){
+                    for (int i= 1; i<=12; i++){
 
                         q10Ans1.getScene().lookup("#q10Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
@@ -659,11 +661,11 @@ public class game2 extends player{
         }
     }
 
-    @FXML private TextField q11Ans1,q11Ans2,q11Ans3,q11Ans4,q11Ans5,q11Ans6,q11Ans7,q11Ans8,q11Ans9,q11Ans10,q11Ans11,q11Ans12,q11Ans13,q11Ans14,q11Ans15;
+    @FXML private TextField q11Ans1,q11Ans2,q11Ans3,q11Ans4,q11Ans5,q11Ans6,q11Ans7,q11Ans8,q11Ans9,q11Ans10,q11Ans11,q11Ans12,q11Ans13,q11Ans14,q11Ans15,q11Ans16,q11Ans17;
 
     @FXML
     void question11(ActionEvent event) throws IOException {
-        String answerq11 = q11Ans1.getText() + q11Ans2.getText() + q11Ans3.getText() + q11Ans4.getText() + q11Ans5.getText() + q11Ans6.getText() + q11Ans7.getText() + q11Ans8.getText() + q11Ans9.getText() + q11Ans10.getText() + q11Ans11.getText() + q11Ans12.getText() + q11Ans13.getText() + q11Ans14.getText() + q11Ans15.getText();
+        String answerq11 = q11Ans1.getText() + q11Ans2.getText() + q11Ans3.getText() + q11Ans4.getText() + q11Ans5.getText() + q11Ans6.getText() + q11Ans7.getText() + q11Ans8.getText() + q11Ans9.getText() + q11Ans10.getText() + q11Ans11.getText() + q11Ans12.getText() + q11Ans13.getText() + q11Ans14.getText() + q11Ans15.getText() + q11Ans16.getText() + q11Ans17.getText();
         System.out.println(player.round);
         if (player.round == 10) {
             win(event);
@@ -680,7 +682,7 @@ public class game2 extends player{
         }
         else {
 
-            for (int i= 1; i<=15; i++){
+            for (int i= 1; i<=17; i++){
 
                 q11Ans1.getScene().lookup("#q11Ans" + i).setStyle("-fx-background-color: #ffcccb; -fx-opacity: 1.0");
 
@@ -689,18 +691,20 @@ public class game2 extends player{
             q11Ans2.setText("");
             q11Ans3.setText("");
             q11Ans4.setText("");
-            q11Ans7.setText("");
+            q11Ans5.setText("");
             q11Ans8.setText("");
             q11Ans9.setText("");
-            q11Ans12.setText("");
+            q11Ans10.setText("");
             q11Ans13.setText("");
             q11Ans14.setText("");
+            q11Ans15.setText("");
+            q11Ans16.setText("");
 
             Timer  time = new Timer();
             TimerTask task = new TimerTask() {
                 @Override
                 public void run() {
-                    for (int i= 1; i<=15; i++){
+                    for (int i= 1; i<=17; i++){
 
                         q11Ans1.getScene().lookup("#q11Ans" + i).setStyle("-fx-background-color: #ffffff; -fx-opacity: 1.0");
         
