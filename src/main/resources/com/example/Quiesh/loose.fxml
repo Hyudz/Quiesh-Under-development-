@@ -14,7 +14,7 @@
             <Image url="@main%20game/bgred.jpg" />
          </image>
       </ImageView>
-      <Text fill="WHITE" layoutX="41.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game over na pareh" wrappingWidth="608.53662109375">
+      <Text fill="WHITE" layoutX="41.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You failed 3 times pareh" wrappingWidth="608.53662109375">
          <font>
             <Font name="Georgia" size="64.0" />
          </font>

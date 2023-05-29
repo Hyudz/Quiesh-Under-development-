@@ -57,6 +57,16 @@ public class game extends player{
         stage.show();
     }
 
+    @FXML
+    void pause(ActionEvent event) throws IOException {
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("pause.fxml"));
+        Parent root = loader1.load();
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     @FXML Label questionNo;
 
     @FXML private TextField q1Ans1,q1Ans2,q1Ans3,q1Ans4,q1Ans5,q1Ans6,q1Ans7,q1Ans8,q1Ans9,q1Ans10,q1Ans11,q1Ans12,q1Ans13,q1Ans14;
@@ -72,6 +82,8 @@ public class game extends player{
         else if (answerq1.equalsIgnoreCase("systemsoftware")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -132,6 +144,8 @@ public class game extends player{
         else if (answerq2.equalsIgnoreCase("memorysystem")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -171,7 +185,7 @@ public class game extends player{
             System.out.println(player.lives);
             player.lives = player.lives - 1;
             if (player.lives == 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -189,6 +203,8 @@ public class game extends player{
         else if (answerq3.equalsIgnoreCase("inputdevice")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+            
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -226,7 +242,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives == 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -235,6 +251,7 @@ public class game extends player{
 
     @FXML
     void question4(ActionEvent event) throws IOException {
+
         String answerq4 = q4Ans1.getText() + q4Ans2.getText() + q4Ans3.getText() + q4Ans4.getText() + q4Ans5.getText() + q4Ans6.getText() + q4Ans7.getText() + q4Ans8.getText() + q4Ans9.getText() + q4Ans10.getText() + q4Ans11.getText() + q4Ans12.getText() + q4Ans13.getText() + q4Ans14.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -243,6 +260,8 @@ public class game extends player{
         else if (answerq4.equalsIgnoreCase("multitaskingos")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+            
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -279,7 +298,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -296,6 +315,8 @@ public class game extends player{
         else if (answerq5.equalsIgnoreCase("outputdevice")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -332,7 +353,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -349,6 +370,8 @@ public class game extends player{
         else if (answerq6.equalsIgnoreCase("operatingsystem")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -387,7 +410,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -404,6 +427,8 @@ public class game extends player{
         else if (answerq7.equalsIgnoreCase("userlevelthread")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -440,7 +465,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -457,6 +482,8 @@ public class game extends player{
         else if (answerq8.equalsIgnoreCase("processing")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;   
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -492,7 +519,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -501,6 +528,7 @@ public class game extends player{
 
     @FXML
     void question9(ActionEvent event) throws IOException {
+
         String answerq9 = q9Ans1.getText() + q9Ans2.getText() + q9Ans3.getText() + q9Ans4.getText() + q9Ans5.getText() + q9Ans6.getText() + q9Ans7.getText() + q9Ans8.getText() + q9Ans9.getText() + q9Ans10.getText() + q9Ans11.getText() + q9Ans12.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -509,6 +537,8 @@ public class game extends player{
         else if (answerq9.equalsIgnoreCase("memorydevice")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -544,7 +574,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -561,6 +591,8 @@ public class game extends player{
         else if (answerq10.equalsIgnoreCase("informativepresentation")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -599,7 +631,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -608,6 +640,7 @@ public class game extends player{
 
     @FXML
     void question11(ActionEvent event) throws IOException {
+
         String answerq11 = q11Ans1.getText() + q11Ans2.getText() + q11Ans3.getText() + q11Ans4.getText() + q11Ans5.getText() + q11Ans6.getText() + q11Ans7.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -616,6 +649,8 @@ public class game extends player{
         else if (answerq11.equalsIgnoreCase("batchos")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -652,7 +687,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -669,6 +704,8 @@ public class game extends player{
         else if (answerq12.equalsIgnoreCase("controlunit")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -704,7 +741,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -713,6 +750,7 @@ public class game extends player{
 
     @FXML
     void question13(ActionEvent event) throws IOException {
+
         String answerq13 =q13Ans1.getText() + q13Ans2.getText() + q13Ans3.getText() + q13Ans4.getText() + q13Ans5.getText() + q13Ans6.getText() + q13Ans7.getText() + q13Ans8.getText() + q13Ans9.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -721,6 +759,8 @@ public class game extends player{
         else if (answerq13.equalsIgnoreCase("networkos")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -758,7 +798,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -767,6 +807,7 @@ public class game extends player{
 
     @FXML
     void question14(ActionEvent event) throws IOException {
+
         String answerq14 = q14Ans1.getText() + q14Ans2.getText() + q14Ans3.getText() + q14Ans4.getText() + q14Ans5.getText() + q14Ans6.getText() + q14Ans7.getText() + q14Ans8.getText() + q14Ans9.getText() + q14Ans10.getText() + q14Ans11.getText() + q14Ans12.getText() + q14Ans13.getText() + q14Ans14.getText() + q14Ans15.getText() + q14Ans16.getText() + q14Ans17.getText() + q14Ans18.getText() + q14Ans19.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -775,6 +816,8 @@ public class game extends player{
         else if (answerq14.equalsIgnoreCase("processormanagement")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                        
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -813,7 +856,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -822,6 +865,7 @@ public class game extends player{
 
     @FXML
     void question15(ActionEvent event) throws IOException {
+
         String answerq15 = q15Ans1.getText() + q15Ans2.getText() + q15Ans3.getText() + q15Ans4.getText() + q15Ans5.getText() + q15Ans6.getText() + q15Ans7.getText() + q15Ans8.getText() + q15Ans9.getText() + q15Ans10.getText() + q15Ans11.getText() + q15Ans12.getText() + q15Ans13.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -830,6 +874,8 @@ public class game extends player{
         else if (answerq15.equalsIgnoreCase("jobscheduling")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -866,7 +912,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -875,6 +921,7 @@ public class game extends player{
 
     @FXML
     void question16(ActionEvent event) throws IOException {
+
         String answerq16 = q16Ans1.getText() + q16Ans2.getText() + q16Ans3.getText() + q16Ans4.getText() + q16Ans5.getText() + q16Ans6.getText() + q16Ans7.getText() + q16Ans8.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -883,6 +930,8 @@ public class game extends player{
         else if (answerq16.equalsIgnoreCase("computer")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -917,7 +966,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -934,6 +983,8 @@ public class game extends player{
         else if (answerq17.equalsIgnoreCase("function")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -969,7 +1020,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -986,6 +1037,8 @@ public class game extends player{
         else if (answerq18.equalsIgnoreCase("googledocs")) {
 
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -1021,7 +1074,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1030,6 +1083,7 @@ public class game extends player{
 
     @FXML
     void question19(ActionEvent event) throws IOException {
+
         String answerq19 = q19Ans1.getText() + q19Ans2.getText() + q19Ans3.getText() + q19Ans4.getText() + q19Ans5.getText() + q19Ans6.getText() + q19Ans7.getText() + q19Ans8.getText() + q19Ans9.getText();
         System.out.println(player.round);
         if (player.round == 10) {
@@ -1038,6 +1092,8 @@ public class game extends player{
         else if (answerq19.equalsIgnoreCase("shareadoc")) {
             
             FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
             Parent root = loader1.load();
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root);
@@ -1073,7 +1129,7 @@ public class game extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1088,7 +1144,15 @@ public class game extends player{
             win(event);
         }
         else if (answerq20.equalsIgnoreCase("manageaccount")) {
-            win(event);
+            FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+questionn+".fxml"));
+                                    
+            player.level = questionn;
+            Parent root = loader1.load();
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+            player.round++;
         }
         else {
 
@@ -1121,7 +1185,7 @@ public class game extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }

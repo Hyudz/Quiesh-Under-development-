@@ -42,7 +42,13 @@ public class bounce {
     }
 
     @FXML
-    void cont(ActionEvent event) {
+    void cont(ActionEvent event) throws IOException {
+        FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+player.level+".fxml"));
+        Parent root = loader1.load();
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
 
     }
 
@@ -55,5 +61,6 @@ public class bounce {
         stage.setScene(scene);
         stage.show();
     }
+
 
 }

@@ -172,7 +172,7 @@ public class game2 extends player{
             System.out.println(player.lives);
             player.lives = player.lives - 1;
             if (player.lives == 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -238,7 +238,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives == 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -287,7 +287,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -339,7 +339,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -406,7 +406,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -470,7 +470,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -539,7 +539,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -599,7 +599,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -656,7 +656,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -716,7 +716,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -765,7 +765,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -819,7 +819,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -870,7 +870,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -930,7 +930,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -980,7 +980,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1032,7 +1032,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1087,7 +1087,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1144,7 +1144,7 @@ public class game2 extends player{
             time.schedule(task, 2000);
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }
@@ -1196,7 +1196,7 @@ public class game2 extends player{
 
             player.lives = player.lives - 1;
             if (player.lives== 0) {
-                returnBack(event);
+                loose(event);
             }
         }
     }

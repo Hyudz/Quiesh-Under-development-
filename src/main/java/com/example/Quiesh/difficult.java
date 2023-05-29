@@ -13,7 +13,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 
-public class difficult{
+public class difficult extends player{
 
     private Stage stage;
     private Scene scene;
@@ -28,8 +28,10 @@ public class difficult{
     
     @FXML
     void ezMode(ActionEvent event) throws IOException {
+        player.lives = 3;
         int question = round + 1;
         FXMLLoader loader1 = new FXMLLoader(getClass().getResource("ezquestions/q"+question+".fxml"));
+        player.level = question;
         Parent root = loader1.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
@@ -39,6 +41,7 @@ public class difficult{
     }
     @FXML
     void challenging(ActionEvent event) throws IOException {
+        player.lives = 3;
         int question = round + 1;
         FXMLLoader loader1 = new FXMLLoader(getClass().getResource("challenging/q"+question+".fxml"));
         Parent root = loader1.load();

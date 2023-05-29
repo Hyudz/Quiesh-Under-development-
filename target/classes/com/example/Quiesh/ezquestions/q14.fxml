@@ -117,7 +117,7 @@
          </font>
       </TextField>
       <Button layoutX="333.0" layoutY="326.0" mnemonicParsing="false" onAction="#question14" text="Next" />
-      <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" text="Pause" />
+      <Button layoutX="604.0" layoutY="14.0" mnemonicParsing="false" onAction="#pause" text="Pause" />
       <Label fx:id="questionNo" layoutX="309.0" layoutY="38.0" text="Question" textFill="WHITE">
          <font>
             <Font name="Dubai Regular" size="21.0" />
